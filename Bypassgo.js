@@ -198,7 +198,7 @@
 
 (async () => {
     const config = {
-        time: 10, // Wait time to avoid detections (Increase this to 30+ seconds to be extra safe from key system bypass protections)
+        time: 4, // Wait time to avoid detections (Increase this to 30+ seconds to be extra safe from key system bypass protections)
         key: '' //Premium key if you have one
     };
 
@@ -211,7 +211,7 @@
         return element;
     };
 
-    document.documentElement.innerHTML = `<html><head><title>BYPASS.VIP USERSCRIPT</title><link rel="stylesheet" href="https:///bypass.vip/assets/css/styles.css"></head><body class="userscript"><h1>bypass.vip userscript</h1><h2>redirecting...</h2></body></html>`;
+    document.documentElement.innerHTML = `<html><head><title>FINBYPASS</title><link rel="stylesheet" href="https:///bypass.vip/assets/css/styles.css"></head><body class="userscript"><h1>bypass.vip userscript</h1><h2>loadingahh...</h2></body></html>`;
 
     const urlParams = new URLSearchParams(window.location.search);
     const redirectUrl = urlParams.get('redirect')
