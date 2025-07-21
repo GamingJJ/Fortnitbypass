@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name          BYPASS.VIP BYPASSER
+// @name          FBypas
 // @namespace     bypass.vip
 // @version       1.4.1
-// @author        bypass.vip
+// @author        fortnite
 // @description   Bypass ad-links using the bypass.vip API and get to your destination without ads!
 // @match         *://mega-guy.com/*
 // @match         *://loot-link.com/*
